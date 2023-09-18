@@ -1,10 +1,13 @@
 import "./App.css";
-import Navbar from "./Components/Navbar/Navbar";
+import Cards from "./Components/Cards/Cards";
+// import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
   <>
-  <Navbar></Navbar>
+  <div className="container py-10 mx-auto">
+  <Cards></Cards>
+  </div>
   </>
   )
 }
